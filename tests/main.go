@@ -15,7 +15,7 @@ func main() {
 
 	// Format a new message using LionFormat
 
-	formattedMsg, err := LionFormat.Format(msg, {})
+	formattedMsg err := LionFormat.Format(msg, {})
 
 	// Check for errors
 	if err != nil {
