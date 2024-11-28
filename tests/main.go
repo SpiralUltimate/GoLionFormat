@@ -3,7 +3,7 @@ package main
 // Import LionFormat and fmt
 import (
 	// Import LionFormat/format as LionFormat
-	LionFormat "example.com/LionFormat/format"
+	LionFormat "github.com/SpiralUltimate/GoLionFormat/format"
 
 	// Import fmt for printing/editing strings
 	"fmt"

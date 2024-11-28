@@ -1,3 +1,3 @@
-module example.com/LionFormat
+module github.com/SpiralUltimate/GoLionFormat
 
 go 1.21.6
