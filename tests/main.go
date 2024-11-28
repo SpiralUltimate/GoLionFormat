@@ -11,11 +11,11 @@ import (
 
 func main() {
 	// Message to format
-	const msg = "val is {d}"
+	const msg = "val is '{d}'"
 
 	// Format a new message using LionFormat
 
-	formattedMsg, err := LionFormat.Format(msg, []any{0})
+	formattedMsg, err := LionFormat.Format(msg, {})
 
 	// Check for errors
 	if err != nil {
