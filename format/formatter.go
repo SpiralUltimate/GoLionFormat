@@ -24,7 +24,7 @@ func formatTypeError(typeStr string, value any) error {
 }
 
 // Formats a string using the given format specifier and arguments.
-func Format(format string, args []any) (string, error) {
+func Format(format string, args ...any) (string, error) {
 	// An array of runes (chars) representing the format
 	formatRunes := []rune(format)
 
